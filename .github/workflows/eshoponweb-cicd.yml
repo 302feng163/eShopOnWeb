@@ -7,7 +7,7 @@ on: [push, workflow_dispatch]
 env:
   RESOURCE-GROUP: test
   LOCATION: westeurope
-  TEMPLATE-FILE: .azure/bicep/webapp.bicep
+  TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 9cd16813-6d13-4877-b7e0-30e5ee71ec6e
   WEBAPP-NAME: eshoponweb-webapp-test
 
